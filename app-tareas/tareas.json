@@ -1,0 +1,30 @@
+[
+   {
+      "obra": "Pavimentación  de calles Moreno e Itairu",
+      "estado": "terminada"
+   },
+   {
+      "obra": "Alumbrado de Av San Martin",
+      "estado": "terminada"
+   },
+   {
+      "obra": "Repavimentacion de Av 25 de Mayo",
+      "estado": "en progreso"
+   },
+   {
+      "obra": "Renovación de red de agua",
+      "estado": "en progreso"
+   },
+   {
+      "obra": "Renovación de red de gas",
+      "estado": "pendiente"
+   },
+   {
+      "obra": "Red cloacal",
+      "estado": "pendiente"
+   },
+   {
+      "obra": "Creacion de espacio verde",
+      "estado": "pendiente"
+   }
+]
