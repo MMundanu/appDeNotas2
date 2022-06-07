@@ -1,4 +1,6 @@
 const fs = require("fs");
+const {argv} = require("process");
+
 
 
 
@@ -21,10 +23,13 @@ const fs = require("fs");
         obras.push(obra);
         escribirJSON(obras);
     }
-    const filtrarPoeEstado = (estado) => {
-        let obras = leerJSON();
-        let obrasFiltradas = obras.filter(obra => obra.estado.toLowerCase() === estado.toLowerCase());
+    const filtrarPorEstado = 
+        
+        (estado) => {
+        let obras = leerJSON(); 
+        let obrasFiltradas = obras.filter(obra => obra.estado === estado);
         mostrarObras(obrasFiltradas);
+        
     }
     const mostrarObras = (obras) => {
         obras.forEach((obra, i) => {
@@ -36,7 +41,8 @@ const fs = require("fs");
 module.exports = {
     listar,
     guardarTarea,
-    filtrarPoeEstado,
+    filtrarPorEstado,
     mostrarObras
+    
 }
 
